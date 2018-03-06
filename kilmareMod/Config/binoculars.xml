@@ -1,0 +1,42 @@
+<configs>
+	<config name="items">		
+		<append xpath="/items">
+		
+	<!-- CZ BINOCULARS MOD -->
+	<item id="" name="binoculars">
+		<property name="Meshfile" value="#binoculars?binocular" />
+		<property name="Material" value="metal" />
+		<property name="RepairTools" value="forgedSteel" />
+		<property name="HoldType" value="14" />
+		<property name="DegradationBreaksAfter" value="false" />
+		<property name="FuelValue" value="12" />
+		<property name="SoundDestroy" value="wooddestroy1" />
+		<property name="Weight" value="30" />
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="Zoom" />
+			<property name="Zoom_overlay" value="#binoculars?binoOverlay" />
+			<property name="Zoom_max_out" value="30" />
+			<property name="Zoom_max_in" value="5" />
+		</property>
+		<property name="Group" value="Ammo/Weapons" />
+		<property name="ActionSkillGroup" value="Blade Weapons" />
+		<property name="CraftingSkillGroup" value="Tool Smithing" />
+		<property name="DescriptionKey" value="binocularsDesc" />		
+		</item>
+		<!-- CZ BINOCULARS MOD -->
+	
+</append>
+</config>
+
+	<config name="recipes">		
+		<append xpath="/recipes">	
+		<!-- CZ BINOCULARS MOD -->
+		<recipe name="binoculars" count="1" scrapable="False">
+		<ingredient name="forgedSteel" count="5" />
+		<ingredient name="glassCTRSheet" count="4" />
+		</recipe>
+		<!-- CZ BINOCULARS MOD -->
+</append>
+</config>		
+</configs>	

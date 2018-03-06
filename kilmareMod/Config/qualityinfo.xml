@@ -1,0 +1,26 @@
+<configs>
+	<config name="qualityinfo">
+
+		<set xpath="/qualityinfo" />
+		<append xpath="/qualityinfo">
+			<!--Grey-->
+			<quality key="0" color="7D7D7D" />
+			<!--Red-->
+			<quality key="1" color="CE2029" />
+			<!--Purple-->
+			<quality key="2" color="512DA8" />
+			<!--Blue-->
+			<quality key="3" color="2F78FF" />
+			<!--Bronze-->
+			<quality key="4" color="B1560F" />
+			<!--Silver-->
+			<quality key="5" color="A7A9AC" />
+			<!--Gold-->
+			<quality key="6" color="F9A602" />
+		</append>
+
+
+	</config>
+</configs>
+
+

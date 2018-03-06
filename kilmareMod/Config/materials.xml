@@ -1,0 +1,17 @@
+<configs>
+	<config name="materials">
+		<append xpath="/materials">
+
+			<material id="treeWoodFruit">
+				<property name="damage_category" value="organic" />
+				<property name="surface_category" value="wood" />
+				<property name="Hardness" type="float" value="1" />
+				<property name="stepsound" value="wood" />
+				<property name="stability_glue" value="36" />
+				<property name="Mass" type="int" value="6" />
+				<property name="MaxDamage" value="40" />
+			</material>
+
+		</append>
+	</config>
+</configs>
