@@ -1,0 +1,6 @@
+Roller_Door = Roller Door
+Roller_DoorDesc = Requires a space 5 blocks wide and 4 blocks high.
+StoneOvenDesc = A stone oven with a campfire in the bottom to heat it. Requires a space of 3 blocks high and should be placed in a corner.
+StoneOven = Stone Oven
+binoculars = binoculars
+binocularsDesc = Good for seeing into the distance.
