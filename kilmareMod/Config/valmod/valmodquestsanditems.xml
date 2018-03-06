@@ -1,0 +1,441 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<!-- Modded Quests -->
+
+			<item id="2610" name="challengeSticky">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_sticky"/>
+				</property>
+			</item>
+
+			<item id="2611" name="challengeClassMiner">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_miner1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2612" name="challengeClassHunter">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_hunter1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2613" name="challengeClassBuilder">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_builder1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2614" name="challengeClassRifleman">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_rifleman1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2615" name="challengeClassGunman">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_gunman1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2616" name="challengeClassVeteran">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_veteran1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2617" name="challengeClassSurvivor">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_survivor1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2618" name="challengeClassBruiser">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_bruiser1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2619" name="challengeClassMedic">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_medic1"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="2620" name="challengeBigBadBosses">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_bigbadbosses"/>
+				</property>
+			</item>
+
+			<item id="2621" name="challengeAnkleBitters">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_anklebitters"/>
+				</property>
+			</item>
+
+			<!--<item id="2622" name="challengeAnimalTraps">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_animaltrap"/>
+				</property>
+			</item> -->
+
+			<item id="2623" name="challengeLightThemUp">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_lightthemup"/>
+				</property>
+			</item>
+
+			<item id="2624" name="challengeDogEatDog">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_dogeatdog"/>
+				</property>
+			</item>
+
+			<item id="2625" name="challengeFeedTheMole">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_feedthemole"/>
+				</property>
+			</item>
+
+			<item id="2626" name="challengeTakingNote">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_takingnote"/>
+				</property>
+			</item>
+
+			<item id="2627" name="challengeCookbook">
+				<property name="Extends" value="schematicMaster"/>
+				<property name="CustomIcon" value="challengeCookbook"/>
+				<property name="DescriptionKey" value="challengeCookbookDesc"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Cooking,Cooking,Cooking,Cooking,Cooking"/>
+				</property>
+			</item>
+
+			<item id="2628" name="challengeHotrod">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property name="DescriptionKey" value="challengeHotrodDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_hotrod"/>
+				</property>
+			</item>
+
+			<item id="2629" name="challengeSurvivorJournal">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property name="DescriptionKey" value="challengeSurvivorJournalDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_journal"/>
+				</property>
+			</item>
+
+			<item id="2630" name="challengeLockpick">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property name="DescriptionKey" value="challengeLockpickDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_lockpick"/>
+				</property>
+			</item>
+
+			<item id="2631" name="challengeKickz">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property name="DescriptionKey" value="challengeKickzDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_Kickz"/>
+				</property>
+			</item>
+
+			<item id="2635" name="challengeJock">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="challenge_jock"/>
+				</property>
+			</item>
+
+			<item id="2636" name="challengeReaper">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_reaper"/>
+				</property>
+			</item>
+
+			<item id="2637" name="challengeWalmart">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_walmart"/>
+				</property>
+			</item>
+
+			<item id="2638" name="challengeWedding">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_weddingring"/>
+				</property>
+			</item>
+
+			<item id="2639" name="challengeWallet">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_wallet"/>
+				</property>
+			</item>
+
+			<item id="2640" name="challengeBooks">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_books"/>
+				</property>
+			</item>
+
+			<item id="2641" name="challengeChildsHappiness">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_childshappiness"/>
+				</property>
+			</item>
+
+			<item id="2642" name="challengeToilet">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_toilet"/>
+				</property>
+			</item>
+
+			<item id="2643" name="challengeWalkman">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_walkman"/>
+				</property>
+			</item>
+
+			<item id="2644" name="challengeCondoms">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_condoms"/>
+				</property>
+			</item>
+
+			<item id="2645" name="challengeBaseball">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="challenge_baseball"/>
+				</property>
+			</item>
+
+			<item id="2646" name="challengeCards">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_cards"/>
+				</property>
+			</item>
+
+			<item id="2647" name="challengeCigarettes">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_cigarettes"/>
+				</property>
+			</item>
+
+			<item id="2648" name="challengeArtist">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_artsupplies"/>
+				</property>
+			</item>
+
+			<item id="2649" name="challengeSoap">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_soap"/>
+				</property>
+			</item>
+
+			<item id="2650" name="challengeBong">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="EconomicValue" value="100"/>
+				<property name="CustomIconTint" value="FFD900"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_bong"/>
+				</property>
+			</item>
+
+			<!-- Quest Items -->
+
+			<item id="2700" name="questItem">
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="Weight" value="5"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="5"/>
+				<property name="DropScale" value="4"/>
+				<property name="CreativeMode" value="None"/>
+				<property name="EconomicValue" value="50"/>
+			</item>
+
+			<item id="2701" name="questItemRing">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="200"/>
+			</item>
+
+			<item id="2702" name="questItemRing2">
+				<property name="Extends" value="questItem"/>
+			</item>
+
+			<item id="2703" name="questItemWallet">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="150"/>
+			</item>
+
+			<item id="2704" name="questItemBook">
+				<property name="Extends" value="questItem"/>
+				<property name="Meshfile" value="Items/Misc/Book"/>
+				<property name="Material" value="paper"/>
+				<property name="Weight" value="15"/>
+			</item>
+
+			<item id="2705" name="questItemTeddy">
+				<property name="Extends" value="questItem"/>
+				<property name="Material" value="cloth"/>
+				<property name="EconomicValue" value="5"/>
+			</item>
+
+			<item id="2706" name="questItemToiletPaper">
+				<property name="Extends" value="questItem"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="0"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_water" value="0"/>
+					<property name="Debuff" value="dysentery"/>
+				</property>
+			</item>
+
+			<item id="2707" name="questItemGameboy">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="150"/>
+				<property name="Material" value="MelectronicParts"/>
+				<property name="Weight" value="3"/>
+			</item>
+
+			<item id="2708" name="questItemWalkman">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="150"/>
+				<property name="Material" value="MelectronicParts"/>
+				<property name="Weight" value="3"/>
+			</item>
+
+			<item id="2709" name="questItemCondoms">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="150"/>
+			</item>
+
+			<item id="2710" name="questItemBaseball">
+				<property name="Extends" value="questItem"/>
+			</item>
+
+			<item id="2711" name="questItemCards">
+				<property name="Extends" value="questItem"/>
+			</item>
+
+			<item id="2712" name="questItemCigarettes">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="150"/>
+			</item>
+
+			<item id="2713" name="questItemArtSupplies">
+				<property name="Extends" value="questItem"/>
+				<property name="EconomicValue" value="10"/>
+			</item>
+
+			<item id="2714" name="questItemColoringBook">
+				<property name="Extends" value="questItem"/>
+				<property name="Meshfile" value="Items/Misc/Book"/>
+				<property name="Material" value="paper"/>
+				<property name="Weight" value="10"/>
+				<property name="EconomicValue" value="5"/>
+			</item>
+
+			<item id="2715" name="questItemBong">
+				<property name="Extends" value="questItem"/>
+				<property name="Material" value="glass"/>
+				<property name="Weight" value="20"/>
+				<property name="EconomicValue" value="15"/>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

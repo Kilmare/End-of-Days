@@ -1,0 +1,81 @@
+<configs>
+
+	<config name="items">
+
+
+
+	<append xpath="/items">
+
+			<item id="1750" name="ironHelmetLight">
+				<property name="Extends" value="ironHelmet"/>
+				<property name="DescriptionKey" value="HelmetLightDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1751" name="militaryHelmetLight">
+				<property name="Extends" value="militaryHelmet"/>
+				<property name="DescriptionKey" value="HelmetLightDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1752" name="swatHelmetLight">
+				<property name="Extends" value="swatHelmet"/>
+				<property name="DescriptionKey" value="HelmetLightDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1753" name="scrapHelmetLight">
+				<property name="Extends" value="scrapHelmet"/>
+				<property name="DescriptionKey" value="HelmetLightDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1754" name="steelHelmetLight">
+				<property name="Extends" value="steelHelmet"/>
+				<property name="DescriptionKey" value="HelmetLightDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1755" name="ledAviatorGoggles">
+				<property name="Extends" value="aviatorGoggles"/>
+				<property name="DescriptionKey" value="LEDHelmetDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1756" name="ledGoggles">
+				<property name="Extends" value="goggles"/>
+				<property name="DescriptionKey" value="LEDHelmetDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+		</append>
+
+
+
+	</config>
+</configs>

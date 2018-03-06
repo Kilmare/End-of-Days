@@ -1,0 +1,755 @@
+<configs>
+	<config name="items">
+		<append xpath="/items">
+
+
+
+		<item id="1950" name="weedCleaver">
+				<property name="DescriptionKey" value="weedCleaverDesc"/>
+				<property name="Meshfile" value="Items/Weapons/Melee/Knives/machetePrefab"/>
+				<property name="Material" value="metal"/>
+				<property name="Degradation" value="500" param1="false"/>
+				<property name="HoldType" value="47"/>
+				<property name="Stacknumber" value="1"/>
+				<property name="RepairTools" value="whetstone"/>
+				<property name="DegradationBreaksAfter" value="false"/>
+				<property name="SoundJammed" value="ItemNeedsRepair"/>
+				<property name="SoundDestroy" value="wooddestroy1"/>
+				<property class="Action0">
+					<property name="Class" value="Melee"/>
+					<property name="Delay" value="0.2"/>
+					<property name="Range" value="2"/>
+					<property name="Sphere" value="0.1"/>
+					<property name="Block_range" value="10"/>
+					<property name="DamageBlock" value="0"/>
+					<property name="Sound_start" value="swoosh"/>
+					<property name="Stamina_usage" value="4"/>
+					<property name="DamageBonus.plants" value="25"/>
+					<property name="DamageBonus.leaves" value="25"/>
+					<property name="ToolCategory.Pluck" value="1"/>
+					<property name="ToolCategory.Farm" value="1"/>
+				</property>
+				<property class="Attributes">
+					<property name="EntityDamage" value="8,10"/>
+					<property name="DegradationMax" value="250,750"/>
+					<property name="DegradationRate" value="2,1"/>
+					<property name="DismembermentBaseChance" value="0.1,0.1"/>
+					<property name="DismembermentBonus" value="0,0"/>
+				</property>
+				<property name="EconomicValue" value="20"/>
+			</item>
+
+			<item id="1951" name="chemicalAgent">
+				<property name="DescriptionKey" value="chemicalAgentDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="Group" value="Chemicals"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+				<property name="EconomicValue" value="10"/>
+			</item>
+
+			<item id="1952" name="animalFeed">
+				<property name="DescriptionKey" value="animalFeedDesc"/>
+				<property name="Meshfile" value="Items/Food/seed_blueberry"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="200"/>
+				<property name="Group" value="Resources"/>
+				<property class="Preview">
+					<property name="Zoom" value="35"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="EconomicValue" value="3"/>
+			</item>
+
+			<item id="1953" name="maniacPowder">
+				<property name="DescriptionKey" value="maniacPowderDesc"/>
+				<property name="Meshfile" value="Items/Food/cornmeal"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="20"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_water" value="0"/>
+					<property name="Gain_stamina" value="100"/>
+					<property name="Sound_start" value="Player_Male/player1drownsurface"/>
+					<property name="Debuff" value="infection"/>
+					<property name="Buff" value="Resistance, maniacBoost"/>
+				</property>
+				<property name="Group" value="Medicine"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+				<property name="EconomicValue" value="20"/>
+			</item>
+
+			<item id="1954" name="Remote">
+				<property name="Degradation" value="125" param1="true"/>
+				<property name="DescriptionKey" value="RemoteDesc"/>
+				<property name="Meshfile" value="Items/Crafting/ingotAluminum"/>
+				<property name="Material" value="metal"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="1"/>
+				<property class="Action1">
+					<property name="Class" value="Repair"/>
+					<property name="Delay" value="0.4"/>
+					<property name="Upgrade_hit_offset" value="-2"/>
+					<property name="Sound_start" value="UseActions/repair_block"/>
+					<property name="Allowed_upgrade_items" value="Remote"/>
+				</property>
+				<property name="Group" value="Tools/Traps"/>
+				<property class="Preview">
+					<property name="Zoom" value="8"/>
+					<property name="Pos" value="-0.1,-0.7"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1957" name="Syringe">
+				<property name="DescriptionKey" value="SyringeDesc"/>
+				<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab"/>
+				<property name="Material" value="Mplastics"/>
+				<property name="Weight" value="1"/>
+				<property name="HoldType" value="1"/>
+				<property name="Group" value="Resources"/>
+				<property name="Stacknumber" value="200"/>
+				<property class="Action1">
+					<property name="Class" value="ExchangeItem"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Change_item_to" value="InfectionDart"/>
+					<property name="Focused_blockname_1" value="GoreBlock1Prefab"/>
+				</property>
+				<property class="Preview">
+					<property name="Zoom" value="35"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1958" name="healingAgent">
+				<property name="DescriptionKey" value="healingAgentDesc"/>
+				<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+				<property name="Material" value="Mplastics"/>
+				<property name="Weight" value="1"/>
+				<property name="HoldType" value="16"/>
+				<property name="Group" value="Medicine"/>
+				<property name="Stacknumber" value="200"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="5"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_water" value="0"/>
+					<property name="Sound_start" value="player_painkillers"/>
+					<property name="Debuff" value="bleeding,burning"/>
+					<property name="Buff" value="firstAid"/>
+				</property>
+				<property class="Preview">
+					<property name="Zoom" value="35"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+				<property name="EconomicValue" value="10"/>
+			</item>
+
+			<item id="1959" name="tantalizingMagazine">
+				<property name="DescriptionKey" value="tantalizingMagazineDesc"/>
+				<property name="Meshfile" value="Items/Misc/Book"/>
+				<property name="Material" value="paper"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="10"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_stamina" value="-25"/>
+					<property name="Gain_water" value="0"/>
+				</property>
+				<property class="Preview">
+					<property name="Zoom" value="35"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="EconomicValue" value="15"/>
+			</item>
+
+			<item id="1960" name="Clingwrap">
+				<property name="DescriptionKey" value="ClingwrapDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="100"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="EconomicValue" value="5"/>
+			</item>
+
+			<item id="1961" name="stripsClingwrap">
+				<property name="DescriptionKey" value="stripsClingwrapDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="100"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="Group" value="Food/Cooking"/>
+			</item>
+
+			<item id="1962" name="sealedMeat">
+				<property name="DescriptionKey" value="sealedMeatDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="Group" value="Chemicals"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="Group" value="Food/Cooking"/>
+			</item>
+
+			<item id="1963" name="gearMechanism">
+				<property name="DescriptionKey" value="gearMechanismDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1964" name="electricalWires">
+				<property name="DescriptionKey" value="electricalWiresDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1965" name="fuelLog">
+				<property name="DescriptionKey" value="fuelLogDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="FuelValue" value="1350"/>
+				<property name="Group" value="Chemicals"/>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1966" name="classKey">
+				<property name="Degradation" value="125" param1="true"/>
+				<property name="Meshfile" value="Items/Misc/paper"/>
+				<property name="DescriptionKey" value="classKeyDesc"/>
+				<property name="Material" value="paper"/>
+				<property name="HoldType" value="23"/>
+				<property name="Stacknumber" value="1"/>
+				<property class="Action1">
+					<property name="Class" value="Repair"/>
+					<property name="Delay" value="0.4"/>
+					<property name="Upgrade_hit_offset" value="-2"/>
+					<property name="Sound_start" value="UseActions/repair_block"/>
+					<property name="Allowed_upgrade_items" value="classKey"/>
+				</property>
+				<property name="Group" value="Professions"/>
+			</item>
+
+			<item id="1967" name="classSelection">
+				<property name="DescriptionKey" value="classSelectionDesc"/>
+				<property name="Meshfile" value="Items/Misc/Book"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="1"/>
+				<property name="FuelValue" value="20"/>
+				<property name="Group" value="Special Items"/>
+				<property class="Preview">
+					<property name="Zoom" value="10"/>
+					<property name="Pos" value="0,-0.2"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1968" name="Lockpick">
+				<property name="Degradation" value="125" param1="true"/>
+				<property name="DescriptionKey" value="LockpickDesc"/>
+				<property name="Meshfile" value="Items/Weapons/Melee/Knives/boneShivPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="1"/>
+				<property name="Group" value="Resources"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Action1">
+					<property name="Class" value="Repair"/>
+					<property name="Delay" value="0.53"/>
+					<property name="Upgrade_hit_offset" value="-1"/>
+					<property name="Sound_start" value="UseActions/repair_block"/>
+					<property name="Allowed_upgrade_items" value="Lockpick"/>
+				</property>
+			</item>
+
+			<item id="1969" name="butcherKnife">
+				<property name="Extends" value="huntingKnife"/>
+				<property name="DescriptionKey" value="butcherKnifeDesc"/>
+				<property class="Action0">
+					<property name="ToolCategory.Butcher" value="1"/>
+					<property name="ToolCategory.ButcherBonus" value="1"/>
+				</property>
+			</item>
+
+			<item id="1970" name="skinningKnife">
+				<property name="Extends" value="huntingKnife"/>
+				<property name="DescriptionKey" value="skinningKnifeDesc"/>
+				<property class="Action0">
+					<property name="ToolCategory.Butcher" value="1"/>
+					<property name="ToolCategory.Skinner" value="1"/>
+				</property>
+			</item>
+
+			<item id="1971" name="seedPack">
+				<property name="DescriptionKey" value="seedPackDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="100"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1972" name="lokiStew">
+				<property name="Extends" value="meatStew"/>
+				<property name="CustomIcon" value="meatStew"/>
+				<property name="DescriptionKey" value="lokiStewDesc"/>
+				<property class="Action1">
+					<property name="Gain_food" value="40"/>
+				</property>
+			</item>
+
+			<item id="1973" name="lokiWater">
+				<property name="Extends" value="bottledWater"/>
+				<property name="CustomIcon" value="bottledWater"/>
+				<property name="DescriptionKey" value="lokiWaterDesc"/>
+				<property class="Action0">
+					<property name="Class" value="ExchangeItem"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Change_item_to" value="coldlokiWater"/>
+				</property>
+				<property class="Action1">
+					<property name="Gain_water" value="40"/>
+				</property>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			</item>
+
+			<item id="1974" name="coldlokiWater">
+				<property name="CustomIcon" value="bottledWater"/>
+				<property name="Extends" value="bottledWater"/>
+				<property class="Action1">
+					<property name="Gain_water" value="40"/>
+					<property name="Buff" value="yuccaJuiceCooling"/>
+				</property>
+				<property name="DescriptionKey" value="coldDrinkDesc"/>
+			</item>
+
+			<item id="1975" name="moleSandwich">
+				<property name="Extends" value="shamSandwich"/>
+				<property name="DescriptionKey" value="moleSandwichDesc"/>
+				<property class="Action1">
+					<property name="Gain_health" value="-3"/>
+					<property name="Gain_food" value="20"/>
+					<property name="Buff_chance" value="1"/>
+					<property name="Gain_wellness" value="-0.5"/>
+				</property>
+			</item>
+
+			<item id="1976" name="lokiBow">
+				<property name="Extends" value="woodenBow"/>
+				<property name="CustomIcon" value="woodenBow"/>
+				<property name="DescriptionKey" value="lokiBowDesc"/>
+				<property class="Attributes">
+					<property name="DegradationMax" value="400,900"/>
+				</property>
+			</item>
+
+			<item id="1977" name="carpenterKit">
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="wood"/>
+				<property name="Weight" value="5"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="5000"/> <!-- STK resource -->
+				<property name="FuelValue" value="10"/>
+				<property name="Group" value="Resources,Basics"/>
+				<property name="RepairAmount" value="100"/>
+				<property name="LootExpValue" value="1"/>
+				<property name="DescriptionKey" value="carpenterKitDesc"/>
+				<property name="CraftingIngredientTime" value="0.5"/>
+				<property name="SellableToTrader" value="false"/>
+				<property name="CraftingSkillGroup" value="Carpentry"/>
+			</item>
+
+			<item id="1978" name="mechanicalKit">
+				<property name="CustomIcon" value="repairKit"/>
+				<property name="CustomIconTint" value="110,173,255"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="metal"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="50"/> <!-- STK repairKit -->
+				<property name="EconomicValue" value="186"/>
+				<property name="RepairTime" value="2"/>
+				<property name="RepairAmount" value="2000"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1979" name="plumbingKit">
+				<property name="DescriptionKey" value="plumbingKitDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="5"/> <!-- STK resource -->
+				<property name="Group" value="Resources,Basics"/>
+				<property name="RepairAmount" value="100"/>
+				<property name="LootExpValue" value="1"/>
+				<property name="CraftingIngredientTime" value="0.5"/>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1980" name="ovenKit">
+				<property name="DescriptionKey" value="ovenKitDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="5"/> <!-- STK resource -->
+				<property name="Group" value="Resources,Basics"/>
+				<property name="RepairAmount" value="100"/>
+				<property name="LootExpValue" value="1"/>
+				<property name="CraftingIngredientTime" value="0.5"/>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+			</item>
+
+			<item id="1981" name="soap">
+				<property name="DescriptionKey" value="soapDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="1"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_water" value="0"/>
+					<property name="Gain_wellness" value="0.5"/>
+					<property name="Debuff" value="dysentery"/>
+				</property>
+			</item>
+
+			<item id="1982" name="crudeNail">
+				<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
+				<property name="DescriptionKey" value="crudeNailDesc"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+				<property name="CraftingSkillGroup" value="Carpentry"/>
+				<property name="SellableToTrader" value="false"/>
+			</item>
+
+			<item id="1983" name="charcoalChips">
+				<property name="DescriptionKey" value="charcoalChipsDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="coal"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+				<property name="FuelValue" value="5"/>
+				<property name="DropScale" value="8"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingIngredientTime" value="1"/>
+			</item>
+
+			<item id="1984" name="Unload">
+				<property name="CreativeMode" value="None"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="Material" value="lead"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="250"/>
+				<property name="Group" value="Ammo/Weapons"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="0"/>
+					<property name="BlockDamage" value="0"/>
+				</property>
+			</item>
+
+			<item id="1985" name="speedPill">
+				<property name="DescriptionKey" value="speedPillDesc"/>
+				<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="16"/>
+				<property name="Stacknumber" value="5"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="0"/>
+					<property name="Gain_food" value="0"/>
+					<property name="Gain_water" value="-5"/>
+					<property name="Sound_start" value="player_painkillers"/>
+					<property name="Buff" value="speedBoost"/>
+				</property>
+				<property name="ActionExp" value="5"/>
+				<property name="ActionSkillGroup" value="Medicine"/>
+				<property name="CraftingSkillGroup" value="craftSkillScience"/>
+				<property name="Group" value="Medicine"/>
+				<property name="EconomicValue" value="20"/>
+			</item>
+
+			<item id="1986" name="scythe">
+				<property name="DescriptionKey" value="scytheDesc"/>
+				<property name="Meshfile" value="Items/Tools/pickaxe_ironPrefab"/>
+				<property name="SoundJammed" value="ItemNeedsRepair"/>
+				<property name="Material" value="metal"/>
+				<property name="RepairTools" value="whetstone"/>
+				<property name="HoldType" value="32"/>
+				<property name="DegradationBreaksAfter" value="false"/>
+				<property name="SoundDestroy" value="metaldestroy1"/>
+				<property name="FuelValue" value="30"/>
+				<property class="Action0">
+					<property name="Class" value="Melee"/>
+					<property name="Delay" value="1.0"/>
+					<property name="Range" value="2.4"/>
+					<property name="Sphere" value="0.1"/>
+					<property name="Block_range" value="4"/>
+					<property name="Sound_start" value="swoosh"/>
+					<property name="Stamina_usage" value="5"/>
+					<property name="DamageBonus.glass" value="25"/>
+					<property name="DamageBonus.head" value="6"/>
+					<property name="DamageBonus.stone" value="0.1"/>
+					<property name="DamageBonus.metal" value="0.1"/>
+					<property name="DamageBonus.wood" value="0.2"/>
+					<property name="DamageBonus.earth" value="0.2"/>
+					<property name="DamageBonus.glass" value="25"/>
+					<property name="DamageBonus.plants" value="25"/>
+					<property name="DamageBonus.leaves" value="25"/>
+					<property name="DamageBonus.organic" value="10"/>
+					<property name="ToolCategory.Farm" value="1"/>
+					<property name="ToolCategory.Pluck" value="1"/>
+				</property>
+				<property class="Attributes">
+					<property name="EntityDamage" value="12,30"/>
+					<property name="BlockDamage" value="1,2"/>
+					<property name="DegradationMax" value="300,800"/>
+					<property name="DismembermentBaseChance" value="0.1,0.2"/>
+				</property>
+				<property name="Group" value="Ammo/Weapons"/>
+				<property name="ActionSkillGroup" value="Blade Weapons"/>
+				<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+				<property name="EconomicValue" value="15"/>
+			</item>
+
+			<item id="1987" name="fiberPulp">
+				<property name="DescriptionKey" value="fiberPulpDesc"/>
+				<property name="Meshfile" value="Items/Crafting/plant_fibers"/>
+				<property name="Material" value="plants"/>
+				<property name="HoldType" value="16"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+				<property name="FuelValue" value="5"/>
+				<property name="Group" value="Resources"/>
+			</item>
+
+			<item id="1992" name="trashbag">
+				<property name="Degradation" value="125" param1="true"/>
+				<property name="DescriptionKey" value="trashbagDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+					<property class="Action1">
+						<property name="Class" value="Repair"/>
+						<property name="Delay" value="0.4"/>
+						<property name="Upgrade_hit_offset" value="-2"/>
+						<property name="Sound_start" value="UseActions/repair_block"/>
+						<property name="Allowed_upgrade_items" value="trashbag"/>
+					</property>
+			</item>
+
+			<item id="1993" name="whetstone">
+				<property name="DescriptionKey" value="whetstoneDesc"/>
+				<property name="Meshfile" value="Items/Crafting/rock_smallPrefab"/>
+				<property name="Material" value="stone"/>
+				<property name="HoldType" value="40"/>
+				<property name="Stacknumber" value="1000"/> <!-- STK resource -->
+				<property name="RepairAmount" value="300"/>
+				<property name="Weight" value="5"/>
+				<property name="DropScale" value="3"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingIngredientTime" value="0.5"/>
+				<property name="EconomicValue" value="5"/>
+			</item>
+
+			<item id="1994" name="scrapIronAxe">
+				<property name="Meshfile" value="Items/Weapons/Melee/Axe/stone_axePrefab"/>
+				<property name="Material" value="metal"/>
+				<property name="RepairTools" value="scrapIron"/>
+				<property name="HoldType" value="32"/>
+				<property name="EconomicValue" value="5"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="false"/>
+				<property name="DegradationBreaksAfter" value="false"/>
+				<property name="SoundJammed" value="ItemNeedsRepair"/>
+				<property name="SoundDestroy" value="wooddestroy1"/>
+				<property name="FuelValue" value="12"/>
+				<property class="Action0"> <!-- AttackAction -->
+					<property name="Class" value="Melee"/>
+					<property name="Delay" value="0.8"/>
+					<property name="Range" value="2.1"/>
+					<property name="Block_range" value="3"/>
+					<property name="Sphere" value="0.1"/>
+					<property name="Sound_start" value="swoosh"/>
+					<property name="Stamina_usage" value="3"/>
+					<property name="DamageBonus.head" value="5"/>
+					<property name="DamageBonus.wood" value="1.2"/>
+					<property name="DamageBonus.earth" value="0.25"/>
+					<property name="DamageBonus.stone" value=".75"/>
+					<property name="DamageBonus.metal" value="0.5"/>
+					<property name="DamageBonus.organic" value="1"/>
+					<property name="ActionExp" value="2"/>
+					<property name="ToolCategory.Butcher" value="0.5"/>
+					<property name="ToolCategory.Lumberjack" value="0.5"/>
+					<!-- value = harvest event multiplier, param1 = damage multiplier if matching harvest event present on the block -->
+					<property name="ToolCategory.harvestingTools" value=".8" param1="1"/> 
+				</property>
+				<property class="Attributes">
+					<property name="EntityDamage" value="6,14"/>
+					<property name="BlockDamage" value="20,35"/>
+					<property name="DegradationMax" value="100,600"/>
+					<property name="DegradationRate" value="2,2"/>
+					<property name="DismembermentBaseChance" value="0,0"/>
+					<property name="DismembermentBonus" value="0,0"/>
+				</property>
+				<property name="Group" value="Tools/Traps,Basics"/>
+				<property name="ActionSkillGroup" value="Axes"/>
+				<property name="CraftingSkillGroup" value="craftSkillTools"/>
+				<property name="RepairExpMultiplier" value="5.5"/>
+			</item>
+
+			<item id="1995" name="scrapIronPickaxe">
+				<property name="Extends" value="pickaxeIron"/>
+				<property name="RepairTools" value="scrapIron"/>
+				<property name="EconomicValue" value="5"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="5,10"/>
+					<property name="BlockDamage" value="19,30"/>
+					<property name="DegradationMax" value="200,600"/>
+					<property name="DegradationRate" value="2,2"/>
+				</property>
+			</item>
+
+			<item id="1996" name="scrapIronShovel">
+				<property name="Extends" value="shovelIron"/>
+				<property name="RepairTools" value="scrapIron"/>
+				<property name="EconomicValue" value="5"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="6,13"/>
+					<property name="BlockDamage" value="16,40"/>
+					<property name="DegradationMax" value="200,600"/>
+					<property name="DegradationRate" value="2,2"/>
+				</property>
+			</item>
+
+			<item id="1997" name="scrapIronShiv">
+				<property name="Extends" value="boneShiv"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="8,16"/>
+					<property name="DegradationMax" value="200,600"/>
+					<property name="DegradationRate" value="2,2"/>
+				</property>
+			</item>
+
+			<item id="1998" name="ironRingsRivets">
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="HoldType" value="45"/>
+				<property name="Material" value="metal"/>
+				<property name="Stacknumber" value="500"/> <!-- STK resource -->
+				<property name="EconomicValue" value="12"/>
+				<property name="CraftingIngredientExp" value="10"/>
+				<property name="CraftingIngredientTime" value="5"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingSkillGroup" value="Blacksmith"/>
+			</item>
+
+			<item id="1999" name="steelRingsRivets">
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="HoldType" value="45"/>
+				<property name="Material" value="metal"/>
+				<property name="Stacknumber" value="500"/> <!-- STK resource -->
+				<property name="EconomicValue" value="12"/>
+				<property name="CraftingIngredientExp" value="10"/>
+				<property name="CraftingIngredientTime" value="5"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingSkillGroup" value="Blacksmith"/>
+			</item>
+
+			</append>
+	</config>
+</configs>

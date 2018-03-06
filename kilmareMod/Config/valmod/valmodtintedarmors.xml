@@ -1,0 +1,2007 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<!--Leather Red -->
+
+			<item id="2102" name="leatherHoodRed">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2103" name="leatherJacketRed">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2104" name="leatherPantsRed">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2105" name="leatherBootsRed">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2106" name="leatherGlovesRed">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Blue -->
+
+			<item id="2107" name="leatherHoodBlue">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2108" name="leatherJacketBlue">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2109" name="leatherPantsBlue">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2110" name="leatherBootsBlue">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2111" name="leatherGlovesBlue">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Leather Green -->
+
+			<item id="2112" name="leatherHoodGreen">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2113" name="leatherJacketGreen">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2114" name="leatherPantsGreen">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2115" name="leatherBootsGreen">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2116" name="leatherGlovesGreen">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Purple -->
+
+			<item id="1745" name="leatherHoodPurple">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2117" name="leatherJacketPurple">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2118" name="leatherPantsPurple">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2119" name="leatherBootsPurple">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2120" name="leatherGlovesPurple">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Leather Yellow -->
+
+			<item id="2121" name="leatherHoodYellow">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2122" name="leatherJacketYellow">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2123" name="leatherPantsYellow">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2124" name="leatherBootsYellow">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2125" name="leatherGlovesYellow">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Orange -->
+
+			<item id="2126" name="leatherHoodOrange">
+				<property name="CustomIcon" value="leatherHood"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2127" name="leatherJacketOrange">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2128" name="leatherPantsOrange">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2129" name="leatherBootsOrange">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2130" name="leatherGlovesOrange">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Black -->
+
+			<item id="2132" name="leatherJacketBlack">
+				<property name="CustomIcon" value="leatherJacket"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="leatherJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2133" name="leatherPantsBlack">
+				<property name="CustomIcon" value="leatherPants"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="leatherPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2134" name="leatherBootsBlack">
+				<property name="CustomIcon" value="leatherBoots"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="leatherBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2135" name="leatherGlovesBlack">
+				<property name="CustomIcon" value="leatherGloves"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="leatherGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<!--Iron Red -->
+
+			<item id="2136" name="ironHelmetRed">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2137" name="ironChestArmorRed">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2138" name="ironLegArmorRed">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2139" name="ironBootsRed">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2140" name="ironGlovesRed">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Iron Blue -->
+
+			<item id="2141" name="ironHelmetBlue">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2142" name="ironChestArmorBlue">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2143" name="ironLegArmorBlue">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2144" name="ironBootsBlue">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+	
+			<item id="2145" name="ironGlovesBlue">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Iron Green -->
+
+			<item id="2146" name="ironHelmetGreen">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2147" name="ironChestArmorGreen">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2148" name="ironLegArmorGreen">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2149" name="ironBootsGreen">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2150" name="ironGlovesGreen">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Iron Purple -->
+
+			<item id="2151" name="ironHelmetPurple">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2152" name="ironChestArmorPurple">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2153" name="ironLegArmorPurple">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2154" name="ironBootsPurple">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2155" name="ironGlovesPurple">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Iron Lime -->
+
+			<item id="2156" name="ironHelmetLime">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2157" name="ironChestArmorLime">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2158" name="ironLegArmorLime">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2159" name="ironBootsLime">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2160" name="ironGlovesLime">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Iron Orange -->
+
+			<item id="2161" name="ironHelmetOrange">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2162" name="ironChestArmorOrange">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2163" name="ironLegArmorOrange">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2164" name="ironBootsOrange">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2165" name="ironGlovesOrange">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Iron Black -->
+
+			<item id="2166" name="ironHelmetBlack">
+				<property name="CustomIcon" value="ironHelmet"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="ironHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2167" name="ironChestArmorBlack">
+				<property name="CustomIcon" value="ironChestArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="ironChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2168" name="ironLegArmorBlack">
+				<property name="CustomIcon" value="ironLegArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="ironLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2169" name="ironBootsBlack">
+				<property name="CustomIcon" value="ironBoots"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="ironBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2170" name="ironGlovesBlack">
+				<property name="CustomIcon" value="ironGloves"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="ironGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<!--Scrap Red -->
+
+			<item id="2171" name="scrapHelmetRed">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2172" name="scrapChestArmorRed">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2173" name="scrapLegArmorRed">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2174" name="scrapBootsRed">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2175" name="scrapGlovesRed">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Scrap Blue -->
+
+			<item id="2176" name="scrapHelmetBlue">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2177" name="scrapChestArmorBlue">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2178" name="scrapLegArmorBlue">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2179" name="scrapBootsBlue">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2180" name="scrapGlovesBlue">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Scrap Green -->
+
+			<item id="2181" name="scrapHelmetGreen">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2182" name="scrapChestArmorGreen">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2183" name="scrapLegArmorGreen">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2184" name="scrapBootsGreen">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2185" name="scrapGlovesGreen">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Scrap Purple -->
+
+			<item id="2186" name="scrapHelmetPurple">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2187" name="scrapChestArmorPurple">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2188" name="scrapLegArmorPurple">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2189" name="scrapBootsPurple">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2190" name="scrapGlovesPurple">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Scrap Lime -->
+
+			<item id="2191" name="scrapHelmetLime">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2192" name="scrapChestArmorLime">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2193" name="scrapLegArmorLime">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2194" name="scrapBootsLime">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2195" name="scrapGlovesLime">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Scrap Orange -->
+
+			<item id="2196" name="scrapHelmetOrange">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2197" name="scrapChestArmorOrange">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2198" name="scrapLegArmorOrange">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2199" name="scrapBootsOrange">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2200" name="scrapGlovesOrange">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Scrap Black -->
+
+			<item id="2201" name="scrapHelmetBlack">
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="scrapHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2202" name="scrapChestArmorBlack">
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="scrapChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2203" name="scrapLegArmorBlack">
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="scrapLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2204" name="scrapBootsBlack">
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="scrapBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2205" name="scrapGlovesBlack">
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="scrapGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<!--Cloth Red -->
+
+			<item id="2206" name="clothHatRed">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2207" name="clothJacketRed">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2208" name="clothPantsRed">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2209" name="clothBootsRed">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2210" name="clothGlovesRed">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Cloth Blue -->
+
+			<item id="2211" name="clothHatBlue">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2212" name="clothJacketBlue">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2213" name="clothPantsBlue">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2214" name="clothBootsBlue">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2215" name="clothGlovesBlue">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Cloth Green -->
+
+			<item id="2216" name="clothHatGreen">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2217" name="clothJacketGreen">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2218" name="clothPantsGreen">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2219" name="clothBootsGreen">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2220" name="clothGlovesGreen">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Cloth Purple -->
+
+			<item id="2221" name="clothHatPurple">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2222" name="clothJacketPurple">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2223" name="clothPantsPurple">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2224" name="clothBootsPurple">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2225" name="clothGlovesPurple">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Cloth Lime -->
+
+			<item id="2226" name="clothHatLime">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2227" name="clothJacketLime">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2228" name="clothPantsLime">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2229" name="clothBootsLime">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2230" name="clothGlovesLime">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Cloth Orange -->
+
+			<item id="2231" name="clothHatOrange">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2232" name="clothJacketOrange">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2233" name="clothPantsOrange">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2234" name="clothBootsOrange">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2235" name="clothGlovesOrange">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Cloth Black -->
+
+			<item id="2236" name="clothHatBlack">
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+			
+			<item id="2237" name="clothJacketBlack">
+				<property name="CustomIcon" value="clothJacket"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="clothJacket"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+			
+			<item id="2238" name="clothPantsBlack">
+				<property name="CustomIcon" value="clothPants"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="clothPants"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+	
+			<item id="2239" name="clothBootsBlack">
+				<property name="CustomIcon" value="clothBoots"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="clothBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+			
+			<item id="2240" name="clothGlovesBlack">
+				<property name="CustomIcon" value="clothGloves"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="clothGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+			
+
+			<!--Hide Red -->
+
+			<item id="2241" name="animalHideHoodRed">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2242" name="animalHideChestArmorRed">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2243" name="animalHideLegArmorRed">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2244" name="animalHideBootsRed">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2245" name="animalHideGlovesRed">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Hide Blue -->
+
+			<item id="2246" name="animalHideHoodBlue">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2247" name="animalHideChestArmorBlue">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2248" name="animalHideLegArmorBlue">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2249" name="animalHideBootsBlue">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2250" name="animalHideGlovesBlue">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Hide Green -->
+
+			<item id="2251" name="animalHideHoodGreen">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2252" name="animalHideChestArmorGreen">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2253" name="animalHideLegArmorGreen">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2254" name="animalHideBootsGreen">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2255" name="animalHideGlovesGreen">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Hide Purple -->
+
+			<item id="2256" name="animalHideHoodPurple">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2257" name="animalHideChestArmorPurple">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2258" name="animalHideLegArmorPurple">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2259" name="animalHideBootsPurple">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2260" name="animalHideGlovesPurple">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Hide Lime-->
+
+			<item id="2261" name="animalHideHoodLime">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2262" name="animalHideChestArmorLime">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2263" name="animalHideLegArmorLime">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2264" name="animalHideBootsLime">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2265" name="animalHideGlovesLime">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Hide Orange -->
+
+			<item id="2266" name="animalHideHoodOrange">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2267" name="animalHideChestArmorOrange">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2268" name="animalHideLegArmorOrange">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2269" name="animalHideBootsOrange">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2270" name="animalHideGlovesOrange">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Hide Black -->
+
+			<item id="2271" name="animalHideHoodBlack">
+				<property name="CustomIcon" value="animalHideHood"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="animalHideHood"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2272" name="animalHideChestArmorBlack">
+				<property name="CustomIcon" value="animalHideChestArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="animalHideChestArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2273" name="animalHideLegArmorBlack">
+				<property name="CustomIcon" value="animalHideLegArmor"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="animalHideLegArmor"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2274" name="animalHideBootsBlack">
+				<property name="CustomIcon" value="animalHideBoots"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="animalHideBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2275" name="animalHideGlovesBlack">
+				<property name="CustomIcon" value="animalHideGloves"/>
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="animalHideGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Red -->
+
+			<item id="2276" name="leatherDusterRed">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Blue -->
+
+			<item id="2277" name="leatherDusterBlue">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Green -->
+
+			<item id="2278" name="leatherDusterGreen">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Purple -->
+			<item id="2279" name="leatherDusterPurple">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Lime-->
+
+			<item id="2280" name="leatherDusterLime">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Leather Duster Orange -->
+
+			<item id="2281" name="leatherDusterOrange">
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="leatherDuster"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Steel Red -->
+
+			<item id="2283" name="steelHelmetRed">
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2284" name="steelChestplateRed">
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2285" name="steelLegsRed">
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2286" name="steelBootsRed">
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="2287" name="steelGlovesRed">
+				<property name="CustomIconTint" value="FF0004"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<!--Steel Blue -->
+
+			<item id="2288" name="steelHelmetBlue">
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2289" name="steelChestplateBlue">
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2290" name="steelLegsBlue">
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2291" name="steelBootsBlue">
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="2292" name="steelGlovesBlue">
+				<property name="CustomIconTint" value="0033FF"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<!--Steel Green -->
+
+			<item id="2293" name="steelHelmetGreen">
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2294" name="steelChestplateGreen">
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2295" name="steelLegsGreen">
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2296" name="steelBootsGreen">
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2297" name="steelGlovesGreen">
+				<property name="CustomIconTint" value="335C41"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Steel Purple -->
+
+			<item id="2298" name="steelHelmetPurple">
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2299" name="steelChestplatePurple">
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2300" name="steelLegsPurple">
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2301" name="steelBootsPurple">
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="2302" name="steelGlovesPurple">
+				<property name="CustomIconTint" value="C483FF"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<!--Steel Lime-->
+
+			<item id="2303" name="steelHelmetLime">
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2304" name="steelChestplateLime">
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2305" name="steelLegsLime">
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2306" name="steelBootsLime">
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<item id="2307" name="steelGlovesLime">
+				<property name="CustomIconTint" value="EEFF38"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 255, 0"/>
+				</property>
+			</item>
+
+			<!--Steel Orange -->
+
+			<item id="2308" name="steelHelmetOrange">
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2309" name="steelChestplateOrange">
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2310" name="steelLegsOrange">
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2311" name="steelBootsOrange">
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="2312" name="steelGlovesOrange">
+				<property name="CustomIconTint" value="FF9500"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="255, 102, 0"/>
+				</property>
+			</item>
+
+			<!--Steel Black -->
+
+			<item id="2313" name="steelHelmetBlack">
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="steelHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2314" name="steelChestplateBlack">
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="steelChestplate"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2315" name="steelLegsBlack">
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="steelLegs"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2316" name="steelBootsBlack">
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="steelBoots"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="2317" name="steelGlovesBlack">
+				<property name="CustomIconTint" value="222526"/>
+				<property name="Extends" value="steelGloves"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

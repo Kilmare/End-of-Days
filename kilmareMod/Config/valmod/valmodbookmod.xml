@@ -1,0 +1,294 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<item id="2025" name="recipebookLoki">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="recipebookLoki"/>
+				<property name="DescriptionKey" value="recipebookLokiDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_Loki"/>
+				</property>
+			</item>
+
+			<item id="2026" name="skillbookAthletics">
+				<property name="DescriptionKey" value="skillbookAthleticsDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Athletics,Athletics,Athletics"/>
+				</property>
+			</item>
+
+			<item id="2027" name="skillbookBuilding">
+				<property name="DescriptionKey" value="skillbookBuildingDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Construction Tools,Carpentry,Carpentry,Carpentry"/>
+				</property>
+			</item>
+	
+			<item id="2030" name="skillbookBarter">
+				<property name="DescriptionKey" value="skillbookBarterDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Barter,Barter,Barter"/>
+				</property>
+			</item>
+
+			<item id="2031" name="skillbookTools">
+				<property name="DescriptionKey" value="skillbookToolsDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Construction Tools,Construction Tools"/>
+				</property>
+			</item>
+
+			<item id="2032" name="skillbookBlunt">
+				<property name="DescriptionKey" value="skillbookBluntDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Blunt Weapons,Blunt Weapons,Blunt Weapons"/>
+				</property>
+			</item>
+
+			<item id="2033" name="skillbookTailor">
+				<property name="DescriptionKey" value="skillbookTailorDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Clothing/Armor,Blade Weapons"/>
+				</property>
+			</item>
+
+			<item id="2034" name="skillbookRogue">
+				<property name="DescriptionKey" value="skillbookRogueDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Clothing/Armor,Blade Weapons,Athletics,Scavenging"/>
+				</property>
+			</item>
+
+			<item id="2035" name="skillbookWasteland">
+				<property name="DescriptionKey" value="skillbookWastelandDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Scavenging,Archery,Weapon Smithing,Traps,Traps"/>
+				</property>
+			</item>
+
+			<item id="2036" name="skillbookBlacksmith">
+				<property name="DescriptionKey" value="skillbookBlacksmithDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Blacksmith,Blacksmith,Clothing/Armor"/>
+				</property>
+			</item>
+
+			<item id="2037" name="skillbookMedical">
+				<property name="DescriptionKey" value="skillbookMedicalDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Medicine,Medicine,Medicine"/>
+				</property>
+			</item>
+
+			<item id="2038" name="skillbookChemistry">
+				<property name="DescriptionKey" value="skillbookChemistryDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Science,Science,Science"/>
+				</property>
+			</item>
+
+			<item id="2039" name="skillbookGunsmoke">
+				<property name="DescriptionKey" value="skillbookGunsmokeDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Pistols,Pistols,Pistols"/>
+				</property>
+			</item>
+
+			<item id="2040" name="skillbookRifles">
+				<property name="DescriptionKey" value="skillbookRiflesDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Rifles,Rifles,Rifles"/>
+				</property>
+			</item>
+
+			<item id="2041" name="skillbookShotguns">
+				<property name="DescriptionKey" value="skillbookShotgunsDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Shotguns,Shotguns,Shotguns"/>
+				</property>
+			</item>
+
+			<item id="2043" name="skillbookArchery">
+				<property name="Extends" value="schematicMaster"/>
+				<property name="DescriptionKey" value="skillbookArcheryDesc"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Archery,Archery,Fletching,Fletching"/>
+				</property>
+			</item>
+
+			<item id="2044" name="recipebookMasonry">
+				<property name="DescriptionKey" value="recipebookMasonryDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Masonry,Masonry,Masonry,Masonry"/>
+				</property>
+			</item>
+
+			<item id="2047" name="skillbookAssaultRifle">
+				<property name="DescriptionKey" value="skillbookAssaultRifleDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Assault Rifles,Assault Rifles,Assault Rifles"/>
+				</property>
+			</item>
+
+			<item id="2048" name="skillbookRocket">
+				<property name="DescriptionKey" value="skillbookRocketDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property name="CustomIcon" value="rocketLauncherSchematic"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Gun Rocket,Gun Rocket,Gun Rocket"/>
+				</property>
+			</item>
+
+			<item id="2049" name="skillbookCrossbow">
+				<property name="DescriptionKey" value="skillbookCrossbowDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Archery,Archery,Fletching,Fletching"/>
+				</property>
+			</item>
+
+			<item id="2050" name="recipebookElectronics">
+				<property name="DescriptionKey" value="recipebookElectronicsDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Mechanical,electricBasicsPerk,electricBasicsPerk,electricBasicsPerk"/>
+				</property>
+			</item>
+
+			<item id="2051" name="recipebookSinks">
+				<property name="DescriptionKey" value="recipebookSinksDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Mechanical,Plumbing,Plumbing"/>
+				</property>
+			</item>
+
+			<item id="2052" name="recipebookOven">
+				<property name="DescriptionKey" value="recipebookOvenDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Mechanical,Oven Repair,Oven Repair,Oven Repair"/>
+				</property>
+			</item>
+
+			<item id="2053" name="skillbookLockpick">
+				<property name="DescriptionKey" value="skillbookLockpickDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Scavenging"/>
+				</property>
+			</item>
+
+			<item id="2054" name="recipebookAnimalTraps">
+				<property name="DescriptionKey" value="recipebookAnimalTrapsDesc"/>
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="recipebookAnimalTraps"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="challenge_animaltrap"/>
+				</property>
+			</item>
+
+			<item id="2055" name="recipebookPottery">
+				<property name="DescriptionKey" value="recipebookPotteryDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Masonry,Masonry"/>
+				</property>
+			</item>
+
+			<!--	<item id="2056" name="recipebookNailgun">
+				<property name="DescriptionKey" value="recipebookNailgunDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Nailgun,Nailgun,Nailgun,Nailgun"/>
+				</property>
+			</item>-->
+
+			<item id="2057" name="skillbookBlades">
+				<property name="DescriptionKey" value="skillbookBladesDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Blade Weapons,Blade Weapons,Blade Weapons"/>
+				</property>
+			</item>
+
+			<item id="2058" name="recipebookSecurity">
+				<property name="DescriptionKey" value="recipebookSecurityDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Security,Security,Security"/>
+				</property>
+			</item>
+
+			<item id="2059" name="skillbookForgedArmor">
+				<property name="DescriptionKey" value="skillbookForgedArmorDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Blacksmith,Clothing/Armor,Clothing/Armor"/>
+				</property>
+			</item>
+
+			<item id="2060" name="recipebookGardenTools">
+				<property name="DescriptionKey" value="recipebookGardenToolsDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Construction Tools,Mining Tools"/>
+				</property>
+			</item>
+
+			<item id="2061" name="skillbookAxes">
+				<property name="DescriptionKey" value="skillbookAxesDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Axes,Axes,Axes"/>
+				</property>
+			</item>
+
+			<item id="2062" name="skillbookKnight">
+				<property name="DescriptionKey" value="skillbookKnightDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Clothing/Armor,Clothing/Armor,Blade Weapons"/>
+				</property>
+			</item>
+
+			<item id="2063" name="skillbookMining">
+				<property name="DescriptionKey" value="skillbookMiningDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Mining Tools,Mining Tools,Mining Tools"/>
+				</property>
+			</item>
+
+			<item id="2064" name="skillbookHunter">
+				<property name="DescriptionKey" value="skillbookHuntergDesc"/>
+				<property name="Extends" value="schematicMaster"/>
+				<property class="Action1">
+					<property name="Skills_to_gain" value="Blade Weapons,Archery,Clothing/Armor"/>
+				</property>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

@@ -1,0 +1,111 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<item id="3000" name="perkSurvivor">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkSurvivor"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3001" name="perkMiner">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkMiner"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3002" name="perkHunter">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkHunter"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3003" name="perkGunman">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkGunman"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3004" name="perkMedic">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkMedic"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3005" name="perkBruiser">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+				<property name="QuestGiven" value="perkBruiser"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3006" name="perkRifleman">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="perkRifleman"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3007" name="perkVeteran">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="perkVeteran"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3008" name="perkBuilder">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="perkBuilder"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+			<item id="3009" name="perkWildcard">
+				<property name="Extends" value="challengeQuestMaster"/>
+				<property name="CustomIcon" value="expGain"/>
+				<property name="DescriptionKey" value="perkClassDesc"/>
+				<property class="Action1">
+					<property name="QuestGiven" value="perkWildcard"/>
+				</property>
+				<property name="Stacknumber" value="1"/>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

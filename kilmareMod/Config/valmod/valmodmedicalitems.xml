@@ -1,0 +1,91 @@
+<configs>
+
+	<config name="items">
+
+
+
+	<append xpath="/items">
+
+			<item id="1920" name="Peroxide">
+				<property name="DescriptionKey" value="PeroxideDesc"/>
+				<property name="Meshfile" value="Items/Food/coffeePrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="50"/>
+				<property name="Group" value="Chemicals"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1921" name="drinkHealth">
+				<property name="DescriptionKey" value="drinkHealthDesc"/>
+				<property name="Meshfile" value="Items/Food/honeyPrefab"/>
+				<property name="Material" value="glass"/>
+				<property name="HoldType" value="3"/>
+				<property name="Group" value="Food/Cooking"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Action1">
+					<property name="Class" value="Eat"/>
+					<property name="Delay" value="1"/>
+					<property name="Use_time" value="..."/>
+					<property name="Gain_health" value="30"/>
+					<property name="Gain_stamina" value="10"/>
+					<property name="Gain_wellness" value="1"/>
+					<property name="Gain_water" value="25"/>
+					<property name="Sound_start" value="player_drinking"/>
+					<property name="Create_item" value="emptyJar"/>
+					<property name="Debuff" value="dysentery"/>
+				</property>
+				<property class="Preview">
+					<property name="Zoom" value="23"/>
+					<property name="Pos" value="0.18,-0.15"/>
+					<property name="Rot" value="0,-45,0"/>
+				</property>
+			</item>
+
+			<item id="1923" name="purificationTablets">
+				<property name="DescriptionKey" value="purificationTabletsDesc"/>
+				<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="16"/>
+				<property name="Stacknumber" value="50"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="-0.02,-0.1"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="1924" name="medicalSplint">
+				<property name="Extends" value="splint"/>
+				<property name="DescriptionKey" value="medicalSplintDesc"/>
+				<property class="Action0">
+					<property name="Buff" value="medicalsplint,firstAid"/>
+					<property name="Debuff" value="sprainedLeg"/>
+				</property>
+				<property class="Action1">
+					<property name="Buff" value="medicalsplint,firstAid"/>
+					<property name="Debuff" value="sprainedLeg"/>
+				</property>
+			</item>
+
+			<item id="1925" name="disinfectantBandage">
+				<property name="Extends" value="bandage"/>
+				<property name="DescriptionKey" value="disinfectantBandageDesc"/>
+				<property class="Action0">
+					<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning,infection"/>
+				</property>
+				<property class="Action1">
+					<property name="Debuff" value="bleeding,arrowCriticalBleedout,burning,infection"/>
+				</property>
+			</item>
+
+		</append>
+
+
+
+	</config>
+</configs>

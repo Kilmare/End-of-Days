@@ -1,0 +1,87 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<item id="1935" name="toolHead">
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="metal"/>
+				<property name="HoldType" value="45"/>
+				<property name="Stacknumber" value="10"/>
+				<property name="DropScale" value="4"/>
+				<property name="CreativeMode" value="None"/>
+				<property name="EconomicValue" value="12"/>
+				<property name="CraftingIngredientExp" value="10"/>
+				<property name="CraftingIngredientTime" value="60"/>
+				<property name="Group" value="Resources"/>
+				<property name="CraftingSkillGroup" value="Blacksmith"/>
+			</item>
+
+			<item id="1936" name="toolHeadIronAxe">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadAxesDesc"/>
+				<property name="CraftingIngredientExp" value="200"/>
+			</item>
+
+			<item id="1937" name="toolHeadSteelAxe">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadAxesDesc"/>
+				<property name="CraftingIngredientExp" value="300"/>
+			</item>
+
+			<item id="1938" name="toolHeadIronPickaxe">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadPickaxesDesc"/>
+				<property name="CraftingIngredientExp" value="200"/>
+			</item>
+
+			<item id="1939" name="toolHeadSteelPickaxe">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadPickaxesDesc"/>
+				<property name="CraftingIngredientExp" value="300"/>
+			</item>
+
+			<item id="1940" name="toolHeadIronShovel">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadShovelDesc"/>
+				<property name="CraftingIngredientExp" value="150"/>
+			</item>
+
+			<item id="1941" name="toolHeadSteelShovel">
+				<property name="Extends" value="toolHead"/>
+				<property name="DescriptionKey" value="toolHeadShovelDesc"/>
+				<property name="CraftingIngredientExp" value="300"/>
+			</item>
+
+			<item id="1942" name="toolHeadIronHoe">
+				<property name="Extends" value="toolHead"/>
+				<property name="CraftingIngredientExp" value="160"/>
+			</item>
+
+			<item id="1943" name="toolHeadKnifeBlade">
+				<property name="Extends" value="toolHead"/>
+				<property name="CraftingIngredientExp" value="100"/>
+			</item>
+
+			<item id="1944" name="toolHeadBladeScythe">
+				<property name="Extends" value="toolHead"/>
+				<property name="CraftingIngredientExp" value="200"/>
+			</item>
+
+			<item id="1945" name="toolHeadSledgehammer">
+				<property name="Extends" value="toolHead"/>
+				<property name="CraftingIngredientExp" value="300"/>
+			</item>
+
+			<item id="1946" name="toolHeadHammer">
+				<property name="Extends" value="toolHead"/>
+				<property name="CraftingIngredientExp" value="120"/>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

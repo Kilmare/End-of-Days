@@ -1,0 +1,141 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<item id="2500" name="sewingKit">
+				<property name="DescriptionKey" value="sewingKitDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="2501" name="tanningRack">
+				<property name="DescriptionKey" value="tanningRackDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="2502" name="weldingTorch">
+				<property name="DescriptionKey" value="weldingTorchDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="2504" name="chisel">
+				<property name="DescriptionKey" value="chiselDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="2505" name="handSaw">
+				<property name="DescriptionKey" value="handSawDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			<property name="CraftingSkillGroup" value="Carpentry"/>
+			</item>
+
+			<item id="2506" name="bulletTumbler">
+				<property name="DescriptionKey" value="bulletTumblerDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="1"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="EconomicValue" value="150"/>
+			</item>
+
+			<item id="2507" name="paperRack">
+				<property name="DescriptionKey" value="paperRackDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+			</item>
+
+			<item id="2508" name="clayBucket">
+				<property name="DescriptionKey" value="clayBucketDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Masonry"/>
+			</item>
+
+			<item id="2509" name="waterFilter">
+				<property name="DescriptionKey" value="waterFilterDesc"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Material" value="organic"/>
+				<property name="HoldType" value="3"/>
+				<property name="Stacknumber" value="10"/>
+				<property class="Preview">
+					<property name="Zoom" value="28"/>
+					<property name="Pos" value="0,-0.05"/>
+					<property name="Rot" value="90,45,0"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Masonry"/>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

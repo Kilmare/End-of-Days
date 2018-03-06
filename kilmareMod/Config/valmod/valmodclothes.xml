@@ -1,0 +1,540 @@
+<configs>
+
+	<config name="items">
+
+
+
+	<append xpath="/items">
+
+			<item id="1694" name="pimpHat">
+				<property name="Extends" value="cowboyHat"/>
+				<property name="CustomIcon" value="cowboyHat"/>
+				<property name="CustomIconTint" value="E30004"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204,0,0"/>
+				</property>
+			</item>
+
+			<item id="1695" name="hoodPurple">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="7800D4"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+			</item>
+
+			<item id="1696" name="hoodRed">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="E30000"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="1697" name="hoodGreen">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="009612"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="1698" name="hoodBlue">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="1432DE"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="1699" name="hoodBrown">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="846954"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="102, 51, 0"/>
+				</property>
+			</item>
+
+			<item id="1700" name="hoodBlack">
+				<property name="Extends" value="clothHat"/>
+				<property name="CustomIcon" value="clothHat"/>
+				<property name="CustomIconTint" value="575757"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="1701" name="footballHelmetRed">
+				<property name="Extends" value="footballHelmet"/>
+				<property name="CustomIcon" value="footballHelmet"/>
+				<property name="CustomIconTint" value="E01616"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="204, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="1702" name="footballHelmetGreen">
+				<property name="Extends" value="footballHelmet"/>
+				<property name="CustomIcon" value="footballHelmet"/>
+				<property name="CustomIconTint" value="00CC0E"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="1703" name="footballHelmetBlack">
+				<property name="Extends" value="footballHelmet"/>
+				<property name="CustomIcon" value="footballHelmet"/>
+				<property name="CustomIconTint" value="404040"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 0, 0"/>
+				</property>
+			</item>
+
+			<item id="1704" name="footballHelmetBlue">
+				<property name="CustomIcon" value="footballHelmet"/>
+				<property name="CustomIconTint" value="2530A8"/>
+				<property name="Extends" value="footballHelmet"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+			<item id="1705" name="footballHelmetLime">
+				<property name="Extends" value="footballHelmet"/>
+				<property name="CustomIcon" value="footballHelmet"/>
+				<property name="CustomIconTint" value="102, 102, 0"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="102, 102, 0"/>
+				</property>
+			</item>
+
+			<item id="1706" name="bandanaCamo">
+				<property name="Extends" value="bandana"/>
+				<property class="UMA">
+					<property name="Mesh" value="gear_bandana"/>
+					<property name="Overlay0" value="gear_kevlar_helmet"/>
+					<property name="Layer" value="1"/>
+					<property name="UISlot" value="Face"/>
+				</property>
+			</item>
+
+			<item id="1707" name="hoodCamo">
+				<property name="Extends" value="clothHat"/>
+				<property class="UMA">
+					<property name="Overlay0" value="gear_kevlar_helmet"/>
+				</property>
+			</item>
+
+			<item id="1708" name="steelBoots">
+				<property name="Extends" value="ironBoots"/>
+				<property name="CustomIcon" value="scrapBoots"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Degradation" value="270" param1="true"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.4, 0.9"/>
+					<property name="PunctureProtection" value="0.4, 0.8"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Mesh" value="armor_scrap_metal_feet"/>
+					<property name="Overlay" value="gear_swat_helmet"/>
+					<property name="Layer" value="0"/>
+					<property name="UISlot" value="Footwear"/>
+				</property>
+			</item>
+
+			<item id="1709" name="steelLegs">
+				<property name="Extends" value="scrapLegArmor"/>
+				<property name="CustomIcon" value="scrapLegArmor"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Degradation" value="270" param1="true"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.4, 0.9"/>
+					<property name="PunctureProtection" value="0.3, 0.6"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0" value="gear_swat_helmet"/>
+					<property name="Layer" value="3"/>
+					<property name="UISlot" value="LegArmor"/>
+				</property>
+			</item>
+
+			<item id="1710" name="steelChestplate">
+				<property name="Extends" value="scrapChestArmor"/>
+				<property name="CustomIcon" value="scrapChestArmor"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Degradation" value="270" param1="true"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.4, 0.9"/>
+					<property name="PunctureProtection" value="0.4, 0.6"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0" value="gear_swat_helmet"/>
+					<property name="Layer" value="2"/>
+					<property name="UISlot" value="ChestArmor"/>
+				</property>
+			</item>
+
+			<item id="1711" name="steelHelmet">
+				<property name="Extends" value="scrapBoots"/>
+				<property name="CustomIcon" value="scrapHelmet"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Meshfile" value="Items/Clothing/Head/swatHelmetPrefab"/>
+				<property name="HoldType" value="21"/>
+				<property name="Degradation" value="270" param1="true"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property name="CraftingIngredientTime" value="5"/>
+				<property name="EquipSlot" value="Head"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.4, 0.9"/>
+					<property name="PunctureProtection" value="0.4, 0.8"/>
+					<property name="FireProtection" value="0.08, 0.3"/>
+					<property name="RadiationProtection" value="0.08, 0.3"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Mesh" value="armor_scrapmetal_helmet"/>
+					<property name="Overlay" value="gear_swat_helmet"/>
+					<property name="Layer" value="2"/>
+					<property name="UISlot" value="Headgear, xEyewear"/>
+					<property name="ShowHair" value="true"/>
+				</property>
+			</item>
+
+			<item id="1712" name="steelGloves">
+				<property name="Extends" value="ironGloves"/>
+				<property name="CustomIcon" value="scrapGloves"/>
+				<property name="CustomIconTint" value="696B67"/>
+				<property name="Degradation" value="270" param1="true"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.4, 0.9"/>
+					<property name="PunctureProtection" value="0.4, 0.9"/>
+					<property name="FireProtection" value="0.08, 0.3"/>
+					<property name="RadiationProtection" value="0.08, 0.3"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Mesh" value="armor_scrap_metal_hands"/>
+					<property name="Overlay" value="gear_swat_helmet"/>
+					<property name="Layer" value="3"/>
+				</property>
+			</item>
+
+			<item id="1713" name="woolScarf">
+				<property name="Extends" value="bandana"/>
+				<property name="Insulation" value="15"/>
+				<property class="UMA">
+					<property name="Mesh" value="gear_bandana"/>
+					<property name="Overlay0" value="coat_puffer_coat"/>
+					<property name="Layer" value="1"/>
+					<property name="UISlot" value="Face"/>
+				</property>
+			</item>
+
+			<item id="1714" name="Bounty_Duster">
+				<property name="Extends" value="leatherDuster"/>
+				<property name="CustomIcon" value="leatherDuster"/>
+				<property name="CustomIconTint" value="424242"/>
+				<property name="Degradation" value="250" param1="true"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.35, 1"/>
+					<property name="PunctureProtection" value="0.35, 0.9"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+				<property name="Mesh" value="clothes_suit_jacket"/>
+				<property name="Overlay0" value="unisex_clothes_suit_jacket"/>
+				<property name="Overlay0Tint" value="0, 0, 0"/>
+				<property name="Overlay1" value="unisex_clothes_suit_jacket_shirt"/>
+				<property name="Overlay1Tint" value="51, 0, 102"/>
+				<property name="Layer" value="3"/>
+				<property name="Mask0" value="chest" param1="base"/>
+				</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="Dev"/>
+			</item>
+
+			<item id="1715" name="Bounty_Hat">
+				<property name="Extends" value="cowboyHat"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="Degradation" value="250" param1="true"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.3, 0.8"/>
+					<property name="PunctureProtection" value="0.3, 0.7"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="Dev"/>
+			</item>
+
+			<item id="1716" name="Bounty_Gloves">
+				<property name="Extends" value="militaryGloves"/>
+				<property name="CustomIcon" value="militaryGloves"/>
+				<property name="CustomIconTint" value="51, 0, 102"/>
+				<property name="Degradation" value="250" param1="true"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.3, 0.8"/>
+					<property name="PunctureProtection" value="0.3, 0.7"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="Dev"/>
+			</item>
+
+			<item id="1717" name="Bounty_Jeans">
+				<property name="Extends" value="denimPants"/>
+				<property name="CustomIcon" value="denimPants"/>
+				<property name="CustomIconTint" value="575757"/>
+				<property class="Attributes">
+				<property name="ConcussiveProtection" value="0.26,0.65"/>
+				<property name="PunctureProtection" value="0.24,0.6"/>
+				<property name="FireProtection" value="0.2,0.5"/>
+				<property name="RadiationProtection" value="0.16,0.4"/>
+				<property name="DegradationMax" value="320,800"/>
+				</property>
+				<property class="UMA">
+				<property name="Mesh" value="clothes_suit_pants"/>
+				<property name="Overlay0Tint" value="0,0,0"/>
+				<property name="Overlay0" value="unisex_clothes_suit_pants"/>
+				<property name="Layer" value="0"/>
+				<property name="Mask0" value="legs" param1="inner"/>
+				<property name="UISlot" value="Pants"/>
+				</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="Dev"/>
+			</item>
+
+			<item id="1718" name="Bounty_Boots">
+				<property name="Extends" value="wornBoots"/>
+				<property name="CustomIcon" value="wornBoots"/>
+				<property name="CustomIconTint" value="424242"/>
+				<property name="Degradation" value="250" param1="true"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.3, 0.8"/>
+					<property name="PunctureProtection" value="0.3, 0.7"/>
+				</property>
+				<property class="UMA">
+				<property name="Mesh" value="clothes_dress_shoes"/>
+				<property name="Overlay0" value="unisex_clothes_dress_shoes"/>
+				<property name="Overlay0Tint" value="0,0,0"/>		</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="Dev"/>
+			</item>
+
+			<item id="1719" name="Bounty_Shades">
+				<property name="Extends" value="shades"/>
+				<property name="CustomIcon" value="shades"/>
+				<property name="CustomIconTint" value="781B8F"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 0, 102"/>
+				</property>
+				<property name="Candrop" value="false"/>
+				<property name="CreativeMode" value="None"/>
+			</item>
+
+			<item id="1720" name="winterBoots">
+				<property name="CustomIcon" value="hazmatBoots"/>
+				<property name="CustomIconTint" value="402F13"/>
+				<property name="Extends" value="hazmatBoots"/>
+				<property name="DescriptionKey" value=""/>
+				<property name="Insulation" value="15"/>
+				<property name="Waterproof" value="0.2"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.05, 0.2"/>
+					<property name="PunctureProtection" value="0.05, 0.2"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay1Tints" value="402F13"/>
+				</property>
+			</item>
+
+			<item id="1721" name="winterPants">
+				<property name="CustomIcon" value="hazmatPants"/>
+				<property name="CustomIconTint" value="402F13"/>
+				<property name="Extends" value="hazmatPants"/>
+				<property name="DescriptionKey" value=""/>
+				<property name="Insulation" value="20"/>
+				<property name="Waterproof" value="0.2"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.05, 0.2"/>
+					<property name="PunctureProtection" value="0.05, 0.2"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 102"/>
+				</property>
+			</item>
+
+			<item id="1723" name="winterShirt">
+				<property name="CustomIcon" value="hazmatShirt"/>
+				<property name="CustomIconTint" value="402F13"/>
+				<property name="Extends" value="hazmatShirt"/>
+				<property name="DescriptionKey" value=""/>
+				<property name="Insulation" value="20"/>
+				<property name="Waterproof" value="0.2"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.05, 0.2"/>
+					<property name="PunctureProtection" value="0.05, 0.2"/>
+					<property name="FireProtection" value="0.05, 0.2"/>
+					<property name="RadiationProtection" value="0.05, 0.2"/>
+					<property name="DegradationMax" value="40,600"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 102"/>
+				</property>
+			</item>
+
+			<item id="1724" name="winterGloves">
+				<property name="CustomIcon" value="hazmatGloves"/>
+				<property name="CustomIconTint" value="402F13"/>
+				<property name="Extends" value="hazmatGloves"/>
+				<property name="DescriptionKey" value=""/>
+				<property name="Insulation" value="10"/>
+				<property name="Waterproof" value="0.2"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.2, 0.4"/>
+					<property name="PunctureProtection" value="0.1, 0.3"/>
+				</property>
+				<property class="UMA">
+					<property name="Overlay1Tints" value="402F13"/>
+				</property>
+			</item>
+
+			<item id="1725" name="shirtPurple">
+				<property name="Extends" value="shirt"/>
+				<property name="CustomIcon" value="shirt"/>
+				<property name="CustomIconTint" value="51, 0, 102"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51,0,102"/>
+				</property>
+			</item>
+
+			<item id="1726" name="bountyHatRed">
+				<property name="Insulation" value="-5"/>
+				<property name="Extends" value="Bounty_Hat"/>
+				<property name="CustomIcon" value="Bounty_Hat"/>
+				<property name="CustomIconTint" value="173,0,0"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="173,0,0"/>
+				</property>
+			</item>
+
+			<item id="1727" name="bountyHatBlue">
+				<property name="Insulation" value="-5"/>
+				<property name="Extends" value="Bounty_Hat"/>
+				<property name="CustomIcon" value="Bounty_Hat"/>
+				<property name="CustomIconTint" value="110,173,255"/>
+				<property class="UMA">
+					<property name="Overlay1Tint" value="110,173,255"/>
+				</property>
+			</item>
+
+			<item id="1728" name="steelToeBoots">
+				<property name="DescriptionKey" value="steelToeBootsDesc"/>
+				<property name="CustomIcon" value="militaryBoots"/>
+				<property name="CustomIconTint" value="828285"/>
+				<property name="Insulation" value="6"/>
+				<property name="Waterproof" value="0.12"/>
+				<property name="Encumbrance" value="0.08"/>
+				<property name="DegradationBreaksAfter" value="false"/>
+				<property name="HoldType" value="45"/>
+				<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+				<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+				<property name="Weight" value="5"/>
+				<property name="Material" value="cloth"/>
+				<property name="EquipSlot" value="Feet"/>
+				<property class="Attributes">
+					<property name="ConcussiveProtection" value="0.15,0.35"/>
+					<property name="PunctureProtection" value="0.15,0.35"/>
+					<property name="FireProtection" value="0.1,0.2"/>
+					<property name="RadiationProtection" value="0.075,0.15"/>
+					<property name="DegradationMax" value="200,300"/>
+				</property>
+				<property class="UMA">
+					<property name="Mesh" value="armor_kevlar_boots"/>
+					<property name="Overlay0" value="armor_kevlar_boots"/>
+					<property name="Layer" value="0"/>
+					<property name="UISlot" value="Footwear"/>
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+				</property>
+			</item>
+
+			<item id="1729" name="rangerHat">
+				<property name="Extends" value="blackCowboyHat"/>
+				<property name="DescriptionKey" value="rangerHatDesc"/>
+				<property name="Class" value="ItemClassToggle"/>
+				<property name="ActivateObject" value="miningHelmetLightSource(Clone)"/>
+				<property name="LightSource" value="Entities/Lighting/miningHelmetLightSource"/>
+				<property name="Meshfile" value="Items/Clothing/Head/MiningHelmetPrefab"/>
+			</item>
+
+			<item id="1730" name="coolGloves">
+				<property name="Extends" value="clothBoots"/>
+				<property name="Weight" value="20"/>
+				<property name="Insulation" value="-10"/>
+				<property name="DescriptionKey" value="coolGlovesDesc"/>
+				<property name="FuelValue" value="1"/>
+				<property name="EquipSlot" value="Hands"/>
+				<property name="CustomIcon" value="militaryGloves"/>
+				<property name="CustomIconTint" value="828285"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="51, 51, 51"/>
+					<property name="Mesh" value="armor_kevlar_gloves"/>
+					<property name="Overlay0" value="armor_kevlar_gloves"/>
+					<property name="Layer" value="0"/>
+					<property name="UISlot" value="Gloves"/>
+				</property>
+			</item>
+
+			<item id="1731" name="kickzBoots">
+				<property name="Extends" value="runningShoes"/>
+				<property name="Weight" value="5"/>
+				<property name="Material" value="cloth"/>
+				<property name="DescriptionKey" value="kickzBootsDesc"/>
+				<property name="Insulation" value="-10"/>
+				<property name="CustomIcon" value="runningShoes"/>
+				<property name="CustomIconTint" value="0033FF"/>
+				<property class="UMA">
+					<property name="Overlay0Tint" value="0, 51, 204"/>
+				</property>
+			</item>
+
+		</append>
+
+
+
+	</config>
+</configs>

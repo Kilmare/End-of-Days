@@ -1,0 +1,168 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+
+			<item id="2800" name="legendaryClubSpiked">
+				<property name="Extends" value="clubIron"/>
+				<property name="DescriptionKey" value="legendaryClubSpikedDesc"/>
+				<property name="Meshfile" value="Items/Weapons/Melee/Club/Club_Wood_Spiked"/>
+				<property name="RepairTools" value="forgedIron"/>
+				<property class="Action0">
+					<property name="Buff" value="bleeding,criticalBlunt"/>
+					<property name="Buff_chance" value=".5,.4"/>
+					<property name="DamageBonus.head" value="6"/>
+				</property>
+				<property class="Attributes">
+					<property name="EntityDamage" value="25,40"/>
+					<property name="BlockDamage" value="3,13"/>
+					<property name="DegradationMax" value="600,1500"/>
+					<property name="DegradationRate" value="1,1"/>
+				</property>
+				<property name="CritChance" value="0.4"/>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2801" name="legendaryMachete">
+				<property name="Extends" value="machete"/>
+				<property name="DescriptionKey" value="legendaryMacheteDesc"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="25,40"/>
+					<property name="DegradationMax" value="600,1500"/>
+					<property name="DismembermentBaseChance" value="0.3,0.3"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2802" name="legendaryFireaxe">
+				<property name="Extends" value="fireaxeIron"/>
+				<property name="DescriptionKey" value="legendaryFireaxeDesc"/>
+				<property name="RepairTools" value="forgedSteel"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="15,30"/>
+					<property name="BlockDamage" value="50,85"/>
+					<property name="DegradationMax" value="600,1500"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2803" name="legendarySledgehammer">
+				<property name="Extends" value="sledgehammer"/>
+				<property name="DescriptionKey" value="legendarySledgehammerDesc"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="30,65"/>
+					<property name="BlockDamage" value="30,75"/>
+					<property name="DegradationMax" value="600,1500"/>
+					<property name="DegradationRate" value="1,1"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2804" name="legendaryHuntingKnife">
+				<property name="Extends" value="huntingKnife"/>
+				<property name="DescriptionKey" value="legendaryHuntingKnifeDesc"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="20,40"/>
+					<property name="BlockDamage" value="1,2"/>
+					<property name="DegradationMax" value="600,1500"/>
+					<property name="DismembermentBaseChance" value="0.1,0.2"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2805" name="legendaryWrench">
+				<property name="Extends" value="wrench"/>
+				<property name="DescriptionKey" value="legendaryWrenchDesc"/>
+				<property class="Attributes">
+					<property name="EntityDamage" value="35,55"/>
+					<property name="DegradationMax" value="600,1500"/>
+					<property name="DegradationRate" value="1,1"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+			<item id="2806" name="legendaryChainsaw">
+				<property name="RepairTools" value="mechanicalKit"/>
+				<property name="DescriptionKey" value="legendaryChainsawDesc"/>
+				<property name="DegradationBreaksAfter" value="false"/>
+				<property name="Meshfile" value="Items/Weapons/Melee/Chainsaw/chainsaw"/>
+				<property name="Material" value="metal"/>
+				<property name="HoldType" value="19"/>
+				<property name="SoundIdle" value="chainsaw_idle"/>
+				<property class="Action0">
+					<property name="Class" value="Ranged"/>
+					<property name="Auto_fire" value="true"/>
+					<property name="Hitmask_override" value="Melee"/>
+					<property name="Delay" value="0.2"/>
+					<property name="Crosshair_min_distance" value="5"/>
+					<property name="Crosshair_max_distance" value="30"/>
+					<property name="Magazine_size" value="400"/>
+					<property name="Single_magazine_usage" value="false"/>
+					<property name="Magazine_items" value="gasCan"/>
+					<property name="Magazine_item_ray_counts" value="1"/>
+					<property name="Magazine_item_ray_spreads" value="0"/>
+					<property name="Bullet_material" value="metal"/>
+					<property name="Reload_time" value="4.1"/>
+					<property name="Sound_start" value="chainsaw_fire_start"/>
+					<property name="Sound_repeat" value="Weapons/Motorized/Chainsaw/chainsaw_fire_lp"/>
+					<property name="Sound_end" value="Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
+					<property name="Sound_empty" value="chainsaw_empty"/>
+					<property name="Sound_reload" value="chainsaw_reload"/>
+					<property name="Horde_meter_rate" value=".275"/>
+					<property name="Horde_meter_distance" value="20"/>
+					<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/>
+					<property name="DamageBonus.wood" value="10"/>
+					<property name="DamageBonus.head" value="5"/>
+					<property name="DamageBonus.glass" value="25"/>
+					<property name="SupportHarvesting" value="true"/>
+					<property name="UseMeleeCrosshair" value="true"/>
+					<property name="ToolCategory.harvestingTools" value="2" param1="1"/>
+					<property name="ToolCategory.Butcher" value="0" param1="20"/>
+					<property name="ActionExp" value="1"/>
+					<property name="ToolCategory.Lumberjack" value="1"/>
+				</property>
+				<property name="Group" value="Tools/Traps"/>
+				<property name="ActionSkillGroup" value="Mechanical"/>
+				<property name="CraftingSkillGroup" value="Mechanical"/>
+				<property class="Attributes">
+					<property name="FalloffRange" value="2.35,2.35"/>
+					<property name="DegradationRate" value="5,5"/>
+					<property name="DegradationMax" value="3000,6000"/>
+					<property name="VehicleNoise" value="1,0.1"/>
+					<property name="VehicleMaxSpeed" value="5,18"/>
+					<property name="VehicleAcceleration" value="7,14"/>
+					<property name="VehicleMetersPerLiter" value="8,12"/>
+					<property name="VehicleIdleSecondsPerLiter" value="6,12"/>
+					<property name="VehicleStartDelayInSeconds" value="1,0.1"/>
+					<property name="VehicleStartChance" value="0.5,0.99"/>
+					<property name="VehicleTankSize" value="1000, 2000"/>
+					<property name="EntityDamage" value="35,55"/>
+					<property name="BlockDamage" value="4,10"/>
+					<property name="Accuracy" value="1, 0.01"/>
+					<property name="DismembermentBaseChance" value=".2,.3"/>
+					<property name="DismembermentBonus" value="0,0.00036"/>
+				</property>
+				<property name="EconomicValue" value="200"/>
+				<property name="EconomicBundleSize" value="1"/>
+				<property name="SellableToTrader" value="true"/>
+			</item>
+
+		</append>
+
+	</config>
+
+</configs>

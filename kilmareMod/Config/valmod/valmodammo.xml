@@ -1,0 +1,197 @@
+<configs>
+
+	<config name="items">
+
+		<append xpath="/items">
+
+			<item id="1635" name="9mmBulletHP">
+				<property name="Extends" value="9mmBullet"/>
+				<property name="DescriptionKey" value="BulletHPDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="10,10"/>
+					<property name="BlockDamage" value="4,5"/>
+					<property name="ApplyBuff" value="0.7,0.7" param1="stunned"/>
+				</property>
+			</item>
+			<item id="1636" name="9mmBulletINC">
+				<property name="Extends" value="9mmBullet"/>
+				<property name="DescriptionKey" value="BulletINCDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="BlockDamage" value="5,7"/>
+					<property name="ApplyBuff" value="1,1" param1="burningSmall"/>
+				</property>
+			</item>
+			<item id="1637" name="44MagBulletHP">
+				<property name="Extends" value="44MagBullet"/>
+				<property name="DescriptionKey" value="BulletHPDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="10,12"/>
+					<property name="BlockDamage" value="5,7"/>
+					<property name="ApplyBuff" value="0.7,0.7" param1="stunned"/>
+				</property>
+			</item>
+			<item id="1638" name="44MagBulletINC">
+				<property name="Extends" value="44MagBullet"/>
+				<property name="DescriptionKey" value="BulletINCDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="BlockDamage" value="5,7"/>
+					<property name="ApplyBuff" value="1,1" param1="burningSmall"/>
+				</property>
+			</item>
+			<item id="1641" name="762mmBulletHP">
+				<property name="Extends" value="762mmBullet"/>
+				<property name="DescriptionKey" value="BulletHPDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="10,12"/>
+					<property name="BlockDamage" value="5,7"/>
+					<property name="ApplyBuff" value="0.7,0.7" param1="stunned"/>
+				</property>
+			</item>
+			<item id="1642" name="762mmBulletINC">
+				<property name="Extends" value="762mmBullet"/>
+				<property name="DescriptionKey" value="BulletINCDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="BlockDamage" value="5,7"/>
+					<property name="ApplyBuff" value="1,1" param1="burningSmall"/>
+				</property>
+			</item>
+			<item id="1643" name="SiegeShell">
+			<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
+			<property name="Material" value="lead"/>
+			<property name="HoldType" value="21"/>
+			<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+			<property name="DropScale" value="4"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="DescriptionKey" value="SiegeShellDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="3.6,9"/>
+					<property name="BlockDamage" value="30,40"/>
+					<property name="DamageBonus.wood" value="25"/>
+				</property>
+			<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+			</item>
+			<item id="1644" name="shotgunShellINC">
+			<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
+			<property name="Material" value="lead"/>
+			<property name="HoldType" value="21"/>
+			<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+			<property name="DropScale" value="4"/>
+			<property name="Group" value="Ammo/Weapons"/>
+			<property name="DescriptionKey" value="ShotgunShellINCDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="7,15"/>
+					<property name="BlockDamage" value="14,17"/>
+					<property name="ApplyBuff" value="1,1" param1="burningSmall"/>
+				</property>
+			<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+			</item>
+			<item id="1645" name="blunderbussAmmoShredder">
+				<property name="Extends" value="blunderbussAmmo"/>
+				<property name="DescriptionKey" value="BlunderbussShredderDesc"/>
+				<property class="Attributes">
+					<property name="GetQualityFromWeapon" value="true"/>
+					<property name="EntityDamage" value="8,12"/>
+					<property name="ApplyBuff" value="1,1" param1="bleeding"/>
+				</property>
+				<property name="CraftingSkillGroup" value="Weapon Smithing"/>
+			</item>
+			<item id="1646" name="HollowTip">
+				<property name="Extends" value="bulletTip"/>
+				<property name="DescriptionKey" value="HollowTipDesc"/>
+			<!-- Test to see if this is still needed <property name="Weight" value="5"/> -->
+			</item>
+			<item id="1647" name="9mmBulletCasing">
+				<property name="CustomIcon" value="bulletCasing"/>
+				<property name="Extends" value="bulletCasing"/>
+				<property name="DescriptionKey" value="9mmBulletCasingDesc"/>
+			</item>
+			<item id="1649" name="44MagBulletCasing">
+				<property name="Extends" value="bulletCasing"/>
+				<property name="DescriptionKey" value="44MagBulletCasingDesc"/>
+			</item>
+			<item id="1650" name="762mmBulletCasing">
+				<property name="Extends" value="bulletCasing"/>
+				<property name="DescriptionKey" value="762mmBulletCasingDesc"/>
+			</item>
+			<item id="1651" name="shotgunShellCasing">
+				<property name="Extends" value="bulletCasing"/>
+				<property name="Material" value="paper"/>
+				<property name="DescriptionKey" value="shotgunShellCasingDesc"/>
+			</item>
+				<item id="1652" name="lokiShell">
+				<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
+				<property name="Material" value="lead"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="250"/> <!-- STK ammo -->
+				<property name="DropScale" value="4"/>
+				<property name="Group" value="Ammo/Weapons"/>
+				<property name="DescriptionKey" value="lokiShellDesc"/>
+					<property class="Attributes">
+						<property name="GetQualityFromWeapon" value="true"/>
+						<property name="EntityDamage" value="4,10"/>
+						<property name="BlockDamage" value="14,17"/>
+						<property name="ApplyBuff" value="1,1" param1="AcidSplash"/>
+					</property>
+					<property name="CraftingSkillGroup" value="craftSkillScience"/>
+			</item>
+
+	<item id="2967" name="ammoSupply9mm">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="CustomIcon" value="ammoSupply9mm"/>
+		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property class="Action1">
+		<property name="QuestGiven" value="AmmoSupply9mm"/>
+		</property>
+	</item>
+	<item id="2969" name="ammoSupply44Mag">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="CustomIcon" value="ammoSupply44Mag"/>
+		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property class="Action1">
+		<property name="QuestGiven" value="AmmoSupply44Mag"/>
+		</property>
+	</item>
+	<item id="2980" name="ammoSupply762mm">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="CustomIcon" value="ammoSupply762mm"/>
+		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property class="Action1">
+		<property name="QuestGiven" value="AmmoSupply762mm"/>
+		</property>
+	</item>
+	<item id="2981" name="ammoSupplyShotgun">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="CustomIcon" value="ammoSupplyShotgun"/>
+		<property name="DescriptionKey" value="ammoSupplyDesc"/>
+		<property class="Action1">
+		<property name="QuestGiven" value="AmmoSupplyShotgun"/>
+		</property>
+	</item>
+	<item id="2982" name="genericAmmoBox">
+		<property name="DescriptionKey" value="genericAmmoBoxDesc"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="organic"/>
+		<property name="HoldType" value="3"/>
+		<property name="Stacknumber" value="50"/>
+		<property class="Preview">
+			<property name="Zoom" value="28"/>
+			<property name="Pos" value="0,-0.05"/>
+			<property name="Rot" value="90,45,0"/>
+		</property>
+		<property name="Group" value="Resources"/>
+	</item>
+
+			</append>
+
+	</config>
+
+</configs>
